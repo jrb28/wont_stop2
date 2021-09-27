@@ -6,8 +6,8 @@ Created on Mon Sep 13 20:20:23 2021
 """
 
 i = 0
-while i <= 10:
+while True:
     print(i)
     i += 1
-    #if i > 10:
-    #    break
+    if i > 10:
+        break
